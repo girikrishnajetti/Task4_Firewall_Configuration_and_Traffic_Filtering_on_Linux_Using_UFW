@@ -1,0 +1,51 @@
+🛡 Task 4 – Setup and Use a Firewall on Kali Linux (UFW)
+
+📌 Objective
+
+To configure and test basic firewall rules in Kali Linux using UFW (Uncomplicated Firewall) and understand how firewalls filter network traffic.
+
+
+---
+
+🧰 Tools Used
+
+Kali Linux (VMware Workstation)
+
+UFW Firewall
+
+
+
+---
+
+🔧 Steps Performed
+
+1️⃣ Enable UFW
+
+sudo ufw enable
+
+2️⃣ Check existing firewall rules
+
+sudo ufw status numbered
+
+3️⃣ Block inbound traffic on port 23 (Telnet)
+
+sudo ufw deny 23
+
+4️⃣ Allow SSH on port 22
+
+sudo ufw allow 22
+
+5️⃣ Delete rule for port 23 (removing deny)
+
+sudo ufw delete 1
+
+6️⃣ Verify updated rules
+
+sudo ufw status numbered
+
+7️⃣ Disable firewall (Optional)
+
+sudo ufw disable
+
+
+---
