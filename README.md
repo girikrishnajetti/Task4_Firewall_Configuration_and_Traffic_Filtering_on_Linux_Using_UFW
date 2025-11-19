@@ -107,17 +107,3 @@ Open the `screenshots/` directory to view lab screenshots that show enabling UFW
 
 Prepared by: girikrishnajetti
 
-## Suggested next steps (commit)
-
-After reviewing the README, you can add and commit it with:
-
-```bash
-git add README.md
-git commit -m "Add README for Task4: UFW firewall lab"
-git push
-```
-
-## References
-
-- `ufw` manual: `man ufw`
-- Ubuntu UFW documentation: https://help.ubuntu.com/community/UFW
